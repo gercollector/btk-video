@@ -5447,7 +5447,7 @@ padding: 30px 0;
 }
 
 .menu-block-item {
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .active-spec {
@@ -5477,9 +5477,10 @@ padding: 30px 0;
   display: none;
   position: absolute;
   top: 20px;
-  right: 10px;
+  right: -45px;
   background: #ffffff;
   padding: 10px 30px;
+  box-shadow: 1px 2px 10px -7px;
 }
 
 .menu-kurs li {
@@ -5754,14 +5755,24 @@ section {
   height: 100%;
 }
 
+.bg-show {
+  background: none;
+}
+
+.video-object {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .video-block-title {
   text-align: center;
   font-size: 25px;
   font-weight: 600;
   padding: 0 0 10px;
 }
-
-
 
 .video-bg {
   position: relative;
@@ -5819,8 +5830,6 @@ section {
 } */
 
 /* ###### ########### VIDEO-BLOCK ################### */
-
-
 
 
 

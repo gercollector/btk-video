@@ -33,6 +33,7 @@
 	<link href="../static/css/mystyle.css" rel="stylesheet">
 	<link rel="stylesheet" href="../static/plagins/slick-1.8.1/slick.css">
 	<link rel="stylesheet" href="../static/plagins/slick-1.8.1/slick-theme.css">
+	<link rel="stylesheet" href="../static/css/media.css">
 </head>
 <body>
 
@@ -202,7 +203,31 @@
 
 
     <!-- +++++++++++++++++++ Тут будет контент сайта +++++++++++++++ -->
-		<section id="login">
+	<section id="menu">
+		<div class="container">
+			<div class="menu-block">
+				<ul class="menu-block-list">
+					<li class="menu-block-item"><a class="" href="#">Главная</a></li>
+					<li class="menu-block-item submenu-kurs">
+						<a href="#">Специальности</a>
+						<ul class="menu-kurs">
+							<li><a href="#">3 курс</a></li>
+							<li><a href="#">2 курс</a></li>
+							<li><a href="#">1 курс</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="mobile-btn">
+                    <span></span>
+                </div>	
+				<div class="sign-block">
+					<a  href="./login.html">Войти</a>
+					<a class="active-spec" href="./registration.html">Зарегистрироваться</a>
+				</div>	
+			</div>			
+		</div>
+	</section>	
+	<section id="login">
             <div class="container">
 				<div class="login-block">
                 	<div class="row">
@@ -338,5 +363,6 @@
 	<script src="../static/js/isotope.min.js"></script>
 	<script src="../static/js/main.js"></script>
 	<script src="../static/js/f8edb1d03c.js"></script>
+	<script src="../static/js/script.js"></script>
 </body>
 </html>

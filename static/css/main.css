@@ -5521,6 +5521,7 @@ padding: 30px 0;
 
 .submenu-kurs:hover .menu-kurs {
   display: block;
+  z-index: 1;
 }
 
 .menu-kurs {
@@ -5734,10 +5735,10 @@ section {
   background: #1976d2;
   background-image: url("../images/pattern.png");
   height: 470px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
-.menu-spec::-webkit-scrollbar {
+/* .menu-spec::-webkit-scrollbar {
   width: 15px;
 }
 
@@ -5751,7 +5752,7 @@ section {
   background-image: -webkit-gradient(linear, 0 0, 0 100%,
                     color-stop(.5, rgba(255, 255, 255, .25)),
                     color-stop(.5, transparent), to(transparent));
-}
+} */
 
 .menu-list-item {
   display: inline-block;
@@ -5798,6 +5799,11 @@ section {
 
 
 /* ################# VIDEO-BLOCK ################### */
+
+.video-center {
+  display: flex;
+  justify-content: center;
+}
 
 .main-video-block {
   background: url("../images/item-block.jpg") center / cover;
